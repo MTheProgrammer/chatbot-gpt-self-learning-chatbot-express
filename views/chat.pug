@@ -1,0 +1,10 @@
+extends layout
+
+block content
+    form(method="POST" action="/")
+        label(for="message") Enter your message:
+        input(type="text" name="message" id="message" value=question)
+        button(type="submit") Send
+        textarea#answer.form-control(name="answer" rows="5")=answer
+
+    a(href="/teach?question=" + encodeURIComponent(question)) Teach

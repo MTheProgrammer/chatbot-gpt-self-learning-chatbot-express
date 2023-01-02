@@ -1,0 +1,11 @@
+extends layout
+
+block content
+    form(method="POST" action="/teach")
+        label(for="question") Teach me:
+        input(type="text" name="question" id="question" value=question)
+        label(for="question") The correct answer:
+        input(type="text" name="answer" id="answer")
+        button(type="submit") Send
+
+    a(href="/") Back

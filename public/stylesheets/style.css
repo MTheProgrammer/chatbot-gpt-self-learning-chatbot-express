@@ -1,0 +1,47 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 0.5em;
+}
+
+input[type="text"],
+textarea {
+    width: 80%;
+    font-size: 1em;
+    padding: 0.5em;
+    border: 1px solid black;
+    border-radius: 0.25em;
+    margin-bottom: 1em;
+}
+
+button[type="submit"] {
+    font-size: 1em;
+    padding: 0.5em 1em;
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 0.25em;
+}
+
+button[type="submit"]:hover {
+    background-color: skyblue;
+    cursor: pointer;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: skyblue;
+    cursor: pointer;
+}
